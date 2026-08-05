@@ -33,7 +33,8 @@
       <a href="#cv">CV</a>
       <div class="dropdown" id="projectDropdown">
         <button class="dropbtn" id="projectButton" aria-expanded="false">Projects ▾</button>
-        <div class="dropdown-menu"><a href="#heat-exchanger">Heat Exchanger CAD Project</a><a href="#base_plate">Base Plate</a></div>
+        <div class="dropdown-menu"><a href="#heat-exchanger">Heat Exchanger CAD Project</a>
+                                   <a href="#base-plate">Base Plate</a></div>
       </div>
       <a href="#contact">Contact</a>
     </nav>
@@ -84,14 +85,14 @@
 
 
 
-   <section id="base_plate" class="card">
+   <section id="base-plate" class="card">
     <div class="section-head"><div><p class="eyebrow">PROJECT</p><h2>Heat Exchanger CAD Drawing</h2></div></div>
     <div class="project-grid">
       <div class="project-info">
         <h3>Project overview</h3>
         <p>This sample project demonstrates how a recruiter can inspect an AutoCAD-compatible DXF drawing, view the drawing as a PDF, or download either file.</p>
         <ul><li>Interactive DXF view with zoom and reset</li><li>PDF fallback for all devices</li><li>Original CAD file available for download</li></ul>
-        <div class="btn-row"><a class="btn" href="projects/base_plate/drawing.dxf" download>Download DXF</a><a class="btn secondary" href="projects/base_plate/drawing.pdf" download>Download Drawing PDF</a></div>
+        <div class="btn-row"><a class="btn" href="projects/base-plate/drawing.dxf" download>Download DXF</a><a class="btn secondary" href="projects/base-plate/drawing.pdf" download>Download Drawing PDF</a></div>
       </div>
       <div>
         <div class="tabs" role="tablist">
@@ -102,7 +103,7 @@
           <div class="viewer-shell"><div class="viewer-tools"><button id="zoomIn">Zoom +</button><button id="zoomOut">Zoom -</button><button id="resetView">Reset</button></div><canvas id="cadCanvas"></canvas></div>
           <p class="note">This lightweight viewer renders LINE, CIRCLE and TEXT entities from the included DXF. Complex DWG files should also be exported to DXF/PDF.</p>
         </div>
-        <div id="pdf" class="tab-panel"><iframe class="drawing-pdf" src="projects/base_plate/drawing.pdf#view=FitH" title="Heat exchanger drawing PDF"></iframe><p class="note"><a href="projects/base_plate/drawing.pdf" target="_blank" rel="noopener">Open drawing PDF in a new tab</a></p></div>
+        <div id="pdf" class="tab-panel"><iframe class="drawing-pdf" src="projects/base-plate/drawing.pdf#view=FitH" title="Heat exchanger drawing PDF"></iframe><p class="note"><a href="projects/base_plate/drawing.pdf" target="_blank" rel="noopener">Open drawing PDF in a new tab</a></p></div>
       </div>
     </div>
   </section>
