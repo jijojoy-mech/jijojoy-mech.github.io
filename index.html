@@ -96,14 +96,14 @@
       </div>
       <div>
         <div class="tabs" role="tablist">
-          <button class="tab active" data-tab="cad">Interactive CAD</button>
-          <button class="tab" data-tab="pdf">PDF View</button>
+          <button class="tab active" data-tab="base-plate">Interactive CAD</button>
+          <button class="tab" data-tab="base-plate">PDF View</button>
         </div>
-        <div id="cad" class="tab-panel active">
+        <div id="base-plate" class="tab-panel active">
           <div class="viewer-shell"><div class="viewer-tools"><button id="zoomIn">Zoom +</button><button id="zoomOut">Zoom -</button><button id="resetView">Reset</button></div><canvas id="cadCanvas"></canvas></div>
           <p class="note">This lightweight viewer renders LINE, CIRCLE and TEXT entities from the included DXF. Complex DWG files should also be exported to DXF/PDF.</p>
         </div>
-        <div id="pdf" class="tab-panel"><iframe class="drawing-pdf" src="projects/base-plate/drawing.pdf#view=FitH" title="Heat exchanger drawing PDF"></iframe><p class="note"><a href="projects/base_plate/drawing.pdf" target="_blank" rel="noopener">Open drawing PDF in a new tab</a></p></div>
+        <div base-plate="pdf" class="tab-panel"><iframe class="drawing-pdf" src="projects/base-plate/drawing.pdf#view=FitH" title="Heat exchanger drawing PDF"></iframe><p class="note"><a href="projects/base_plate/drawing.pdf" target="_blank" rel="noopener">Open drawing PDF in a new tab</a></p></div>
       </div>
     </div>
   </section>
