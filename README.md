@@ -1,12 +1,15 @@
-# Mechanical Engineering Portfolio
+# Jijo Joy Mechanical Portfolio
 
-## Replace the CV
-1. Delete `files/mechanical-cv.pdf`.
-2. Upload your new CV using exactly the same name: `mechanical-cv.pdf`.
-3. Export the first page of your new CV as a JPG and replace `files/cv-preview.jpg`.
+GitHub Pages-ready multi-page portfolio.
 
-## Replace the CAD project
-- Browser CAD file: `projects/heat-exchanger/drawing.dxf`
-- PDF drawing: `projects/heat-exchanger/drawing.pdf`
+## Pages
+- `index.html` - CV opens first
+- `projects.html` - separate project page with independent interactive DXF viewers
+- `technical-knowledge.html` - Mechanical Systems, Aircraft Systems, CHP & Biogas Systems, and Safety (SHEQ & LOTO)
 
-Keep the same filenames to avoid editing `index.html`.
+## Replace files
+- CV: `files/mechanical-cv.pdf`
+- Mobile CV preview: `files/cv-preview.png`
+- Base Plate files: `projects/base-plate/drawing.dxf` and `drawing.pdf`
+
+Keep the filenames unchanged when replacing files.
